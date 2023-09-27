@@ -4,7 +4,6 @@ let elForm = document.querySelector('.footer__main-form')
 let elUsername = document.querySelector('.footer__main-input');
 let elPassword = document.querySelector('.footer__main-password');
 let elEmail = document.querySelector('.footer__main-email');
-let elSubmitBtn = document.querySelector('.footer__btn');
 elForm.addEventListener('submit', function (event) {
     event.preventDefault();
     let username = elUsername.value.trim();
