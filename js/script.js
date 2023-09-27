@@ -10,9 +10,6 @@ elForm.addEventListener('submit', function (event) {
     let username = elUsername.value.trim();
     let password = elPassword.value.trim();
     let email = elEmail.value.trim();
-    console.log(username);
-    console.log(password);
-    console.log(email);
     elUsername.value = null;
     elPassword.value = null;
     elEmail.value = null;
